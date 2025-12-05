@@ -93,6 +93,7 @@ def menu():
             listar_obras()
             
         elif opcao == '3':
+            listar_obras()
             id_obra = input("ID da Obra a atualizar: ")
             novo_nome = input("Novo Nome: ")
             novo_genero = input("Novo Gênero: ")
@@ -103,6 +104,7 @@ def menu():
                  print("Erro: ID inválido.")
             
         elif opcao == '4':
+            listar_obras()
             id_obra = input("ID da Obra a excluir: ")
             try:
                 excluir_obra(int(id_obra))
